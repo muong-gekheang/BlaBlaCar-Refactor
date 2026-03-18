@@ -3,8 +3,10 @@ import 'package:blabla/ui/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
+import 'package:nested/nested.dart';
 
-void mainCommon(List<Provider> providers) {
+
+void mainCommon(List<SingleChildWidget> providers) {
   runApp(
     MultiProvider(
       providers: providers,
